@@ -1,0 +1,11 @@
+Header set Access-Control-Allow-Origin "*"
+Options -Indexes
+
+<Files "*">
+    Deny from all
+</Files>
+
+<Files "getsun">
+    Allow from all
+    SetHandler cgi-script
+</Files>
