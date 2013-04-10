@@ -12,8 +12,8 @@ The above request will respond with a table of sunrise/sunset times
 for the year 1997 for the given latitude and longitude, expressed in
 the 'US/Eastern' timezone.
 
-This program uses python and requires on the python `ephem` and `pytz`
+This program uses python and requires on the python `pyephem` and `pytz`
 modules, which are readily available in python package management
 systems, or in many operating system repositories.  (For example, on
-CentOS, you can type `yum install ephem pytz` to install both of
+CentOS, you can type `yum install pyephem pytz` to install both of
 them.)
